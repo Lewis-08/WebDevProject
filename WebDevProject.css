@@ -1,0 +1,103 @@
+/* body - overall styling */
+body{
+    width: 960px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+h1{
+
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+font-size: 500%;
+
+
+}
+
+
+/* header - header styling */
+#top{
+    width: 950px;
+    height: 75px;
+    padding: 5px;
+    background-color: red
+    
+}
+#logo{
+    display: inline-block;/* removes 'line break' from element so nav with position alongside */
+}
+/* nav - navigation styling */
+nav{
+    margin-right: 10px; /* give some breathing space */
+    float: right; /* places nav buttons on opposite side to logo */
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid #adadad;
+    border-radius: 10px;
+    
+}
+/* main content styling */
+#banner{/* height and overflow ensure only part of image is shown */
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+}
+main{
+    width: 700px;
+    float: left; /* ensures main content will sit to the left */
+}
+article{
+    width: 690px;
+    min-height: 300px;
+    padding: 5px;
+    border: 2px solid #CCCCCC;
+    margin-bottom: 10px;
+    background-color: #EDEDED;
+}
+article img{
+    width: 40%;
+    margin-right: 10px;
+}
+.date{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.fcc-btn{
+
+background-color: #ED4F2E;
+color:black;
+padding: 10px 20px;
+text-decoration: none;
+font-style: italic;
+
+
+
+}
+
+aside{
+    float: right; /* ensures aside content will sit to the right */
+    width: 220px;
+}
+/* footer styling */
+footer{/* ensures footer is not floated next to previous elements */
+    clear: both;
+    width: 950px;
+    height: 70px;
+    padding: 5px;
+    background-color: #fcfcfc;
+    text-align: center;
+}
+footer img{
+    width: 48px;
+}
+footer ul{
+    padding-left: 0;
+}
+footer ul li{/* places logos next to each other */
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
