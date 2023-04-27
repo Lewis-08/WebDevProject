@@ -72,7 +72,7 @@ window.onload = function () {
           loadQuestion(current);
           loadAnswers(current);
         } else {
-          questionArea.innerHTML = 'Done';
+          questionArea.innerHTML = 'Quiz Complete! View Your Score Below:';
           answerArea.innerHTML = '';
         }
                                 
