@@ -32,13 +32,17 @@ nav{
     float: right; /* places nav buttons on opposite side to logo */
 }
 nav ul li{
-    list-style-type: none;
+    
     display: inline-block;
     padding: 5px 10px;
     border: 2px solid #adadad;
     border-radius: 10px;
     
 }
+
+
+
+
 /* main content styling */
 #banner{/* height and overflow ensure only part of image is shown */
     width: 100%;
