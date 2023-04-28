@@ -10,14 +10,14 @@ h1{
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-style: italic;
 font-size: 500%;
-
+color: white;
 
 }
 
 h2{
 
 font-style: italic;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 }
@@ -40,11 +40,15 @@ nav{
     float: right; /* places nav buttons on opposite side to logo */
 }
 nav ul li{
-    list-style-type: none;
+    list-style-type:none;
     display: inline-block;
     padding: 5px 10px;
-    border: 2px solid #adadad;
+    border: 2px solid red;
     border-radius: 10px;
+    font-size: 150%;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white
     
 }
 
