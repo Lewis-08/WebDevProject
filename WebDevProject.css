@@ -14,6 +14,14 @@ font-size: 500%;
 
 }
 
+h2{
+
+font-style: italic;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+
+}
+
 
 /* header - header styling */
 #top{
@@ -32,7 +40,7 @@ nav{
     float: right; /* places nav buttons on opposite side to logo */
 }
 nav ul li{
-    
+    list-style-type: none;
     display: inline-block;
     padding: 5px 10px;
     border: 2px solid #adadad;
@@ -96,7 +104,7 @@ footer{/* ensures footer is not floated next to previous elements */
     text-align: center;
 }
 footer img{
-    width: 48px;
+    width: 70px;
 }
 footer ul{
     padding-left: 0;

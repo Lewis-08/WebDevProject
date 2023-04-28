@@ -26,7 +26,8 @@ body, html {
   #quiz > h1 {
     text-align: center;
     padding-top: 25px;
-    font-size: 20px;
+    font-size: 40px;
+    font-style: italic;
   }
   
   .questions {
@@ -40,7 +41,7 @@ body, html {
   
   .answers div {
     padding: 10px 0 0 0;
-    font-size: 16px;
+    font-size: 23px;
   }
   
   .answers div:hover {
