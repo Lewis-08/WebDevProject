@@ -17,6 +17,17 @@ window.onload = function () {
           'What Is The Name Of Harveys Therapist?' : ['Scottie', 'Dr.Lipschitz', 'Paula', 2],
 
           'What Falls Out of Mikes Briefcase At The Start Of His Interview With Harvey?' : ['Weed', 'Money', 'A Gun', 0],
+
+          'Pearson Hardman Only Hire Associates From Which Law School?' : ['Columbia', 'Harvard', 'Yale', 1],
+
+          'Which Household Object Does Harvey & Donnas Pre-Trial Ritual Include?' : ['Rolling Pin', 'Cookie Cutter', 'Can Opener', 2],
+
+          'Which Type Of Woman Does Harvey Refuse To Date?' : ['Married', 'Tall', 'Chatty', 0],
+
+          'Where Did Rachel Obtain Her Law Degree?' : ['Columbia', 'Stanford', 'Harvard', 0],
+
+          'What Is Harveys Middle Name? ' : ['Dwight', 'James', 'Reginald', 2]
+
         };
         
     function loadQuestion(curr) {
