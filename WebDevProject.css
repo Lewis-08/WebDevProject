@@ -123,7 +123,8 @@ footer{/* ensures footer is not floated next to previous elements */
     text-align: center;
 }
 footer img{
-    width: 70px;
+    
+    Width: 70px;
 }
 footer ul{
     padding-left: 0;
