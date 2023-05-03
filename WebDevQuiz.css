@@ -109,7 +109,7 @@ nav ul li{
   }
   
   .correct, .false {
-    background-color: #109D59;
+    background-color: #00cc69;
     width: 60px;
     height: 30px;
     line-height: 30px;
@@ -120,5 +120,5 @@ nav ul li{
   }
   
   .false {
-    background-color: #DC4437;
+    background-color: orange;
   }
