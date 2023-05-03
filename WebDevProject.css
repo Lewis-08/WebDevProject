@@ -5,6 +5,13 @@ body{
     font-family: sans-serif;
 }
 
+p{
+
+font-size: 125%;
+font-style: italic;
+
+}
+
 h1{
 
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -90,11 +97,11 @@ padding: 10px 20px;
 text-decoration: none;
 font-style: italic;
 
-
-
 }
 
-aside{
+
+
+#right {
     float: right; /* ensures aside content will sit to the right */
     width: 220px;
 }
