@@ -31,7 +31,7 @@ window.onload = function () {
       };
       
 // Function that loads the entire set of questions into the questionPosition
-  // The function then grabs the relevant question based on the 'current' variable
+  // The function then grabs the relevant question based on the current variable
 
   function loadQuestion(curr) {
   
@@ -43,7 +43,7 @@ window.onload = function () {
   }
   
   // Function that generates all of the possible answers of the question at hand
-  // It makes use of the needed answer-array with help from the current-variable
+  // It makes use of the needed answer array with help from the current variable
   
   function loadAnswers(curr) {
       
@@ -66,7 +66,7 @@ window.onload = function () {
      // This function will run when one of the potential answers is clicked by the user
     // It checks if the answer chosen by the user is the same as the correct answer
     // The function then checks if the question is the last one within the quiz
-    // If so, the area where answers are displayed is cleared and the user is informed that the quiz is over
+    // If so then the area where answers are displayed is cleared and the user is informed that the quiz is over
 
   function checkAnswer(i, arr) {
        
@@ -113,7 +113,7 @@ window.onload = function () {
   }
   
   
-  // Allows the user to start the quiz as soon as they load the webpage
+  // Allows the user to start the quiz straight away
   loadQuestion(current);
   loadAnswers(current);
   
