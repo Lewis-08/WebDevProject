@@ -1,3 +1,4 @@
+/*body styling*/
 body, html {
     width: 100%;
     height: 100%;
@@ -24,7 +25,7 @@ body, html {
   
 }
 #logo{
-  display: inline-block;/* removes 'line break' from element so nav with position alongside */
+  display: inline-block;/* removes line break from element so nav with position alongside */
 }
 /* nav - navigation styling */
 nav{
@@ -51,6 +52,7 @@ nav ul li{
     padding-top: 0px;
   }
   
+  /*Styles the background of the quiz */
   #quiz {
     background-color: red;
     padding-bottom: 60px;
@@ -61,6 +63,7 @@ nav ul li{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
   
+  /*styles the heading of the quiz*/
   #quiz > h1 {
     text-align: center;
     padding-top: 25px;
@@ -68,6 +71,7 @@ nav ul li{
     font-style: italic;
   }
   
+  /*styles the quiz questions*/
   .questions {
     font-size: 28px;
     font-weight: 700;
@@ -77,6 +81,7 @@ nav ul li{
     padding: 20px;
   }
   
+  /*styles the answers to the quiz*/
   .answers div {
     padding: 10px 0 0 0;
     font-size: 23px;
@@ -109,7 +114,7 @@ nav ul li{
   }
   
   .correct, .false {
-    background-color: #00cc69;
+    background-color: #00cc69; /*makes the question box green if a correct answere is chosen*/
     width: 60px;
     height: 30px;
     line-height: 30px;
@@ -120,5 +125,5 @@ nav ul li{
   }
   
   .false {
-    background-color: orange;
+    background-color: orange; /*makes the question box orange if an incorrect answere is chosen*/
   }

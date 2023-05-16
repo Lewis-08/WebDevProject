@@ -46,12 +46,15 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: red
     
 }
+
+/* removes 'line break' from element so nav with position alongside */
 #logo{
-    display: inline-block;/* removes 'line break' from element so nav with position alongside */
+    display: inline-block;
 }
+
 /* nav - navigation styling */
 nav{
-    margin-right: 10px; /* give some breathing space */
+    margin-right: 10px; /* gives some breathing space */
     float: right; /* places nav buttons on opposite side to logo */
 }
 nav ul li{
@@ -108,13 +111,15 @@ font-style: italic;
 }
 
 
-
+/* ensures aside content will sit to the right */
 #right {
-    float: right; /* ensures aside content will sit to the right */
+    float: right; 
     width: 220px;
 }
+
 /* footer styling */
-footer{/* ensures footer is not floated next to previous elements */
+/* ensures footer is not floated next to previous elements */
+footer{     
     clear: both;
     width: 950px;
     height: 70px;
@@ -129,7 +134,9 @@ footer img{
 footer ul{
     padding-left: 0;
 }
-footer ul li{/* places logos next to each other */
+
+/* places logos next to each other */
+footer ul li{
     display: inline-block;
     padding: 0px 5px 0px 5px;
 }
